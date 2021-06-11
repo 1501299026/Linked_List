@@ -57,9 +57,22 @@ public class MyLinkedList {
     }
     INode  tempNode = this.head;
 
-    public void pop() {
+    public INode pop() {
         INode  tempNode = this.head;
         this.head = head.getNext();
+        return tempNode;
+    }
+    /**
+     * this method will delete the last element of the linkedList.
+     * @return
+     */
+    public INode popLast() {
+        INode tempNode = head;
+        while (!tempNode.getNext().equals(tail)) {
+            tempNode = tempNode.getNext();
+        }
+        this.tail = tempNode;
+        tempNode = null;
         return tempNode;
     }
     /**
