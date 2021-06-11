@@ -46,6 +46,16 @@ public class MyLinkedList {
         }
     }
     /**
+     * here i have added insert method which took two inputs given below.
+     * @param myNode
+     * @param newNode
+     */
+    public void insert(INode myNode, INode newNode) {
+        INode tempNode = myNode.getNext();
+        myNode.setNext(newNode);
+        newNode.setNext(tempNode);
+    }
+    /**
      * this will print the node.
      */
     public void printMyNodes() {
@@ -59,7 +69,4 @@ public class MyLinkedList {
         myNodes.append(tempNode.getKey());
         System.out.println(myNodes);
     }
-
-
-
 }
