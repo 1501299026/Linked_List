@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.linkedlist.MyLinkedListTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-11T14:00:31" hostname="DESKTOP-3A5DM76" time="0.303">
+<testsuite name="com.linkedlist.MyLinkedListTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-11T14:07:41" hostname="DESKTOP-3A5DM76" time="0.062">
   <properties/>
-  <testcase name="given3NumbersWhenSearchedKeyShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.289"/>
+  <testcase name="given3NumbersWhenSearchedKeyShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.039"/>
   <testcase name="given3NumbersWhenAppendedShouldBeAddedToLast()" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
   <testcase name="given3NumberWhenDeletedHeadShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
-  <testcase name="given3NumbersWhenAddedToLinkedListShouldBeAddedToTop()" classname="com.linkedlist.MyLinkedListTest" time="0.001"/>
-  <testcase name="given3NumberWhenDeletedLastShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
+  <testcase name="given3NumbersWhenAddedToLinkedListShouldBeAddedToTop()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
+  <testcase name="given3NumberWhenDeletedLastShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.005"/>
   <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedListResult()" classname="com.linkedlist.MyLinkedListTest" time="0.001"/>
+  <testcase name="AfterInserting40After30ShouldPassTheTest()" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 My Nodes: 56->30->70
 My Nodes: 56->30->70
@@ -15,6 +16,8 @@ My Nodes: 56->30->70
 My Nodes: 56->30->70
 My Nodes: 56->3070
 My Nodes: 56->30->70
+My Nodes: 56->30->70
+My Nodes: 56->30->40->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
