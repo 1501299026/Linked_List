@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.linkedlist.MyLinkedListTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-11T14:07:41" hostname="DESKTOP-3A5DM76" time="0.062">
+<testsuite name="com.linkedlist.MyLinkedListTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-11T14:19:11" hostname="DESKTOP-3A5DM76" time="0.065">
   <properties/>
-  <testcase name="given3NumbersWhenSearchedKeyShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.039"/>
-  <testcase name="given3NumbersWhenAppendedShouldBeAddedToLast()" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
+  <testcase name="given3NumbersWhenSearchedKeyShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.035"/>
+  <testcase name="given3NumbersWhenAppendedShouldBeAddedToLast()" classname="com.linkedlist.MyLinkedListTest" time="0.006"/>
   <testcase name="given3NumberWhenDeletedHeadShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
+  <testcase name="Deleteing40InLinkedListshouldPassTest()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
   <testcase name="given3NumbersWhenAddedToLinkedListShouldBeAddedToTop()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
-  <testcase name="given3NumberWhenDeletedLastShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.005"/>
-  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedListResult()" classname="com.linkedlist.MyLinkedListTest" time="0.001"/>
-  <testcase name="AfterInserting40After30ShouldPassTheTest()" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
+  <testcase name="given3NumberWhenDeletedLastShouldPassTheLinkedListTest()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
+  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedListResult()" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
+  <testcase name="AfterInserting40After30ShouldPassTheTest()" classname="com.linkedlist.MyLinkedListTest" time="0.004"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 My Nodes: 56->30->70
 My Nodes: 56->30->70
 My Nodes: 30->70
+My Nodes: 56->30->40->70
+My Nodes: 56->30->70
+Size: 3
 My Nodes: 56->30->70
 My Nodes: 56->30->70
 My Nodes: 56->3070
