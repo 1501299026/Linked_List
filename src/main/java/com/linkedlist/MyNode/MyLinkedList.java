@@ -76,6 +76,18 @@ public class MyLinkedList {
         return tempNode;
     }
     /**
+     * this method will search the given node from the linkedList.
+     * @param myNode
+     * @return
+     */
+    public INode search(INode myNode){
+        INode tempNode = head;
+        while (tempNode.getNext()!=myNode){
+            tempNode=tempNode.getNext();
+        }
+        return tempNode.getNext();
+    }
+    /**
      * this will print the node.
      */
     public void printMyNodes() {

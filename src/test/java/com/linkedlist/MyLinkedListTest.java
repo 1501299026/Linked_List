@@ -4,7 +4,6 @@ import com.linkedlist.MyNode.MyLinkedList;
 import com.linkedlist.MyNode.MyNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 public class MyLinkedListTest {
     /**
      * Here i have tested the add method is working properly or not.
@@ -89,5 +88,20 @@ public class MyLinkedListTest {
         myLinkedList.printMyNodes();
         boolean result = myLinkedList.head.equals(myFirstNode) && myLinkedList.tail.equals(mySecondNode);
         Assertions.assertTrue(result);
+    }
+    /**
+     * this test case will check the search method is working or not.
+     */
+    @Test
+    public void given3NumbersWhenSearchedKeyShouldPassTheLinkedListTest() {
+        MyNode<Integer> myFirstNode = new MyNode<>(56);
+        MyNode<Integer> mySecondNode = new MyNode<>(30);
+        MyNode<Integer> myThirdNode = new MyNode<>(70);
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.append(myFirstNode);
+        myLinkedList.append(mySecondNode);
+        myLinkedList.append(myThirdNode);
+        myLinkedList.printMyNodes();
+        Assertions.assertEquals(30, myLinkedList.search(mySecondNode).getKey());
     }
 }
